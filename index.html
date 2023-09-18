@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <!-- Order Summary You can now listen to millions of songs, audiobooks, and
+    podcasts on any device anywhere you like! Annual Plan $59.99/year Change
+    Proceed to Payment Cancel Order -->
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="/pattern-background-desktop.svg"
+        class="background-img"
+      />
+      <img src="/pattern-background-mobile.svg" alt="" class="background-img" />
+    </picture>
+
+    <section class="app container section">
+      <div class="app__img">
+        <img src="/illustration-hero.svg" alt="" />
+      </div>
+      <div class="app__info">
+        <h2 class="app__info-title">order summary</h2>
+        <p class="app__info-description">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="app__info-container">
+          <img src="/icon-music.svg" alt="" />
+          <div class="app__info-container-wrapper">
+            <h3 class="app__info-container-wrapper-plan">annual plan</h3>
+            <p class="app__info-container-wrapper-price">$59.99/year</p>
+          </div>
+          <a
+            rel="noopener noreferrer"
+            href="#"
+            class="app__info-container-change"
+            >Change</a
+          >
+        </div>
+        <button type="button" class="app__info-btn-pay">
+          Proceed to Payment
+        </button>
+        <button type="button" class="app__info-btn-cancel">cancel order</button>
+      </div>
+    </section>
+
+    <section class="footer container section">
+      <div class="footer__attribution">
+        Challenge by
+        <a
+          rel="noopener noreferrer"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Bottom17"
+          target="_blank"
+          >Nuno Costa</a
+        >.
+      </div>
+    </section>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

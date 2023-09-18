@@ -1,0 +1,10 @@
+.footer__attribution {
+  font-size: 11px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--clr-dark-blue);
+}
+
+.footer__attribution a {
+  color: var(--clr-bright-blue);
+}
